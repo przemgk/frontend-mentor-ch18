@@ -1,0 +1,52 @@
+// --------------------------------------------
+//              HAMBURGER VARIABLE
+// --------------------------------------------
+
+// COLORS
+$hamburger__border-color: hsl(256, 26%, 20%);
+
+// --------------------------------------------
+//              HAMBURGER STYLES
+// --------------------------------------------
+
+.hamburger {
+  display: block;
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid $hamburger__border-color;
+
+  &__inner {
+    display: flex;
+    width: 20px;
+    height: 18px;
+    position: relative;
+  }
+
+  &__bar {
+    display: flex;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $hamburger__border-color;
+
+    &::before,
+    &::after {
+      content: "";
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      background-color: $hamburger__border-color;
+    }
+
+    &::before {
+      top: 8px;
+    }
+
+    &::after {
+      top: 16px;
+    }
+  }
+}

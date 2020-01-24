@@ -1,0 +1,27 @@
+// --------------------------------------------
+//            FIND-OUT-MORE STYLES
+// --------------------------------------------
+
+// COLORS
+$find-out-more__bg-color: hsl(256, 26%, 20%);
+$find-out-more__text-color: hsl(0, 100%, 100%);
+
+// --------------------------------------------
+//            FIND-OUT-MORE STYLES
+// --------------------------------------------
+
+.find-out-more {
+  margin-top: 120px;
+  padding: 80px 32px;
+  /* prettier-ignore */
+  background: $find-out-more__bg-color
+              url(../../assets/bg/bg-pattern-how-we-work-mobile.svg)
+              no-repeat
+              top right/60% 90%;
+  color: $find-out-more__text-color;
+
+  &__heading {
+    margin-bottom: 40px;
+    color: inherit;
+  }
+}

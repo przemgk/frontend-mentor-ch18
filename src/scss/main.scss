@@ -10,6 +10,23 @@
 //              LAYOUT IMPORTS
 // --------------------------------------------
 
+@import "layout/header";
+@import "layout/intro";
+@import "layout/about-us";
+
 // --------------------------------------------
 //             COMPONENTS IMPORTS
 // --------------------------------------------
+
+@import "components/hamburger";
+@import "components/logo";
+@import "components/button";
+@import "components/fetaures";
+@import "components/find-out-more";
+
+$dark-violet: hsl(256, 26%, 20%);
+$grayish-blue: hsl(216, 30%, 68%);
+
+$very-dark-violet: hsl(270, 9%, 17%);
+$dark-grayish-violet: hsl(273, 4%, 51%);
+$very-light-gray: hsl(0, 0%, 98%);

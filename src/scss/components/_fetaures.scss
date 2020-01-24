@@ -1,0 +1,17 @@
+// --------------------------------------------
+//              FEATURES STYLES
+// --------------------------------------------
+
+.features {
+  display: grid;
+  grid-gap: 64px;
+  padding: 0 12px;
+
+  &__heading {
+    margin: 24px 0 16px;
+  }
+
+  &__image {
+    width: 80px;
+  }
+}

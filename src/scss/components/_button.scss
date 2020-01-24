@@ -1,0 +1,23 @@
+// --------------------------------------------
+//              BUTTON VARIABLES
+// --------------------------------------------
+
+// TYPOGRAPHY
+$button__font-size: 1.4rem;
+$button__font-weight: 700;
+
+// COLORS
+$button__border-color: hsl(0, 100%, 100%);
+
+// --------------------------------------------
+//               BUTTON STYLES
+// --------------------------------------------
+
+.button {
+  text-transform: uppercase;
+  padding: 12px 24px;
+  background-color: transparent;
+  border: 1px solid $button__border-color;
+  font-size: $button__font-size;
+  font-weight: $button__font-weight;
+}

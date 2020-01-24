@@ -1,0 +1,35 @@
+// --------------------------------------------
+//            ABOUT-US VARIABLES
+// --------------------------------------------
+
+// TYPOGRAPHY
+$about-us__font-size: 4.2rem;
+
+// COLORS
+$about-us__border-color: hsl(216, 30%, 68%);
+
+// --------------------------------------------
+//               ABOUT-US STYLES
+// --------------------------------------------
+
+.about-us {
+  padding: 140px 24px;
+  text-align: center;
+
+  &__heading {
+    font-size: $about-us__font-size;
+    position: relative;
+    margin-bottom: 72px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      width: 50%;
+      height: 2px;
+      background-color: $about-us__border-color;
+      transform: translateX(-50%);
+    }
+  }
+}

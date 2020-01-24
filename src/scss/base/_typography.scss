@@ -12,9 +12,9 @@ $typography__color: hsl(216, 30%, 68%);
 // HEADINGS
 $heading__font-family: "DM Serif Display", serif;
 $heading__font-weight: 400;
-$heading__font-size--x-large: 3.2rem;
-$heading__font-size--large: 2.8rem;
-$heading__font-size--medium: 2.4rem;
+$heading__font-size--x-large: 4rem;
+$heading__font-size--large: 3.2rem;
+$heading__font-size--medium: 2.8rem;
 $heading__color: hsl(256, 26%, 20%);
 
 // --------------------------------------------
@@ -32,6 +32,7 @@ body {
   font-size: $typography__font-size;
   font-weight: $typography__font-weight;
   color: $typography__color;
+  line-height: 1.6;
 }
 
 // HEADINGS
@@ -40,6 +41,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading__font-family;
   font-weight: $heading__font-weight;
+  color: $heading__color;
+  line-height: 1.1;
 }
 
 h1 {

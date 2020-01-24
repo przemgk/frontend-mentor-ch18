@@ -1,0 +1,54 @@
+// --------------------------------------------
+//               INTRO VARIABLES
+// --------------------------------------------
+
+// COLORS
+$intro__bg-color: hsl(256, 26%, 20%);
+$intro__text-color: hsl(0, 100%, 100%);
+
+// --------------------------------------------
+//                INTRO STYLES
+// --------------------------------------------
+
+.intro {
+  width: 100%;
+  position: relative;
+  /* prettier-ignore */
+  background: $intro__bg-color 
+              url(../../assets/bg/bg-pattern-intro-left-mobile.svg) 
+              no-repeat 
+              top 60% left 0/80%;
+  color: $intro__text-color;
+  text-align: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    right: 0;
+    bottom: -30vh;
+    background: url(../../assets/bg/bg-pattern-intro-right-mobile.svg) no-repeat top right/30%;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__content {
+    padding: 92px 24px;
+  }
+
+  &__heading,
+  &__paragraph {
+    color: inherit;
+  }
+
+  &__heading {
+    margin-bottom: 24px;
+  }
+
+  &__paragraph {
+    margin-bottom: 40px;
+  }
+}
