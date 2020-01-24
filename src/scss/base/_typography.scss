@@ -1,0 +1,62 @@
+// --------------------------------------------
+//            TYPOGRAPHY VARIABLES
+// --------------------------------------------
+
+// TYPOGRAPHY
+$typograph__font-family: "Karla", sans-serif;
+$typograph__font-size--initial: 62.5%;
+$typograph__font-size: 1.6rem;
+$typograph__font-weight: 400;
+$typograph__color: hsl(216, 30%, 68%);
+
+// HEADINGS
+$heading__font-family: "DM Serif Display", serif;
+$heading__font-weight: 400;
+$heading__font-size--x-large: 3.2rem;
+$heading__font-size--large: 2.8rem;
+$heading__font-size--medium: 2.4rem;
+$heading__color: hsl(256, 26%, 20%);
+
+// --------------------------------------------
+//              TYPOGRAPHY STYLES
+// --------------------------------------------
+
+// GENERAL
+
+html {
+  font-size: $typography__font-size--initial;
+}
+
+body {
+  font-family: $typography__font-family;
+  font-size: $typography__font-size;
+  font-weight: $typography__font-weight;
+  color: $typography__color;
+}
+
+// HEADINGS
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading__font-family;
+  font-weight: $heading__font-weight;
+}
+
+h1 {
+  font-size: $heading__font-size--x-large;
+}
+
+h2 {
+  font-size: $heading__font-size--large;
+}
+
+h3 {
+  font-size: $heading__font-size--medium;
+}
+
+// TEXT
+
+p,
+span {
+  color: $typography__color;
+}
